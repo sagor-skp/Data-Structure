@@ -50,7 +50,7 @@ int dequeue(struct queue *q){
 int main(){
     struct queue q;
     q.size = 4;
-    q.f = q.r = -1;
+    q.f = q.r = -1;// Initialize both f and r with -1. 
     q.arr = (int*) malloc(q.size*sizeof(int));
     
     // Enqueue few elements

@@ -72,6 +72,8 @@ int main(){
     //linking the root node with left and right child
     p->left=p1;
     p->right=p2:
+
+    
     */
 
     struct node *p=creatnode(4);
@@ -105,9 +107,5 @@ int main(){
     printf("inorder:");
     inorder(p);
     printf("\n");
-
-
-
-
 
 }

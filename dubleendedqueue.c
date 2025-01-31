@@ -72,7 +72,7 @@ void gerfrear(){
     }
 }
 
-void dequefront(){
+void dequefront(){//->
     if(f==-1 && r==-1){
        printf("Queue is empty");
     } 
@@ -89,7 +89,7 @@ void dequefront(){
     }
 }
 
-void dequerear(){
+void dequerear(){//<-
     if(f==-1 && r==-1){
        printf("Queue is empty");
     }

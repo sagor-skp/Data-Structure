@@ -53,12 +53,12 @@ void dequeue(){
 int main()
 {
     dequeue();
-    // enqueue(2);
-    // enqueue(3);
-    // enqueue(4);
-    // display();
-    // dequeue();
-    // display();
+    enqueue(2);
+    enqueue(3);
+    enqueue(4);
+    display();
+    dequeue();
+    display();
 
 }
 

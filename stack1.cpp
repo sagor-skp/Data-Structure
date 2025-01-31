@@ -46,8 +46,10 @@ void display(){
 }
 
 int main() {
+    //system("cls"); // Clear the screen before showing the menu
     int ch;
     do {
+        
         cout << "1. Push in stack" << endl;
         cout << "2. Pop from stack" << endl;
         cout << "3. find top" << endl;
@@ -58,10 +60,12 @@ int main() {
         switch (ch) {
             case 1:
                 push();
+                system("CLS");
                 display();
                 break;
             case 2:
                 pop();
+                system("CLS");
                 display();
                 break;
             case 3:

@@ -48,6 +48,7 @@ int main(){
     p->right=p2;
     p1->left=p3;
     p1->right=p4;
+    
     int k;
     printf("enter key:");
     scanf("%d",&k);

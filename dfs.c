@@ -24,6 +24,6 @@
 
 int main()
 {
-    dfs(4);
+    dfs(4);//node for search
     return 0;
 }
